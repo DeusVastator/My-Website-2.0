@@ -7,6 +7,7 @@
   background-color: #272D2D;
   min-height: 100vh;
   padding-top: 50px;
+  padding-bottom: 50px;
 
 }
 
@@ -40,9 +41,46 @@
 
 .top-nav .btn-secondary:hover {
   background-color: #272D2D;
-  border-color: #85CB33;
 }
 
-.top-nav .btn .nav-link:hover {
-  color: #85CB33;
+.top-nav .border-primary {
+  border-color: #85CB33 !important;
+}
+
+.top-nav .nav-item {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#hero-container {
+  margin-top: 50px;
+}
+
+#hero-text1 {
+  color: white;
+  text-align: center;
+}
+
+#hero-text2 {
+  color: white;
+  text-align: center;
+  width: 700px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.green-container {
+  background-color: #85CB33;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 100%!;
+}
+
+.green-text {
+  color: white;
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  padding-top: 125px;
+  padding-bottom: 125px;
 }

@@ -12,6 +12,7 @@ import {
   Container
 } from 'reactstrap';
 
+
 function App() {
   return (
     <div className="App">
@@ -33,12 +34,25 @@ function App() {
                 </NavItem>
 
                 <NavItem>
-                  <Button className="contact-button rounded-pill border-primary"><NavLink href="">Contact</NavLink></Button>
+                <NavLink href="mailto:contact@denisalfonso.com"><Button className="contact-button rounded-pill border-primary border">Contact</Button></NavLink>
                 </NavItem>
               </Nav>
-
             </div>
-</div>
+
+              <Container id="hero-container">
+                <h1 id="hero-text1">Web Developer, Designer, Tech Enthusiast</h1>
+                <h4 id="hero-text2">Hi, My name is Denis and I enjoy designing and coding beautiful and unique websites/apps.</h4>
+                <img src="./images/desk-illustration.svg"></img>
+              </Container>
+
+              <div className="green-container">
+                <h2 className="green-text">Looking for my work ? Look no more. Below is a set of websites/apps I designed to improve existing sites.</h2>
+              </div>
+
+              <Container id="projects"></Container>
+
+            
+          </div>
         
         
         
