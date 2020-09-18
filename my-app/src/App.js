@@ -123,19 +123,21 @@ function App() {
               </Container>
 
               <Container>
-                <Row ClassName="footer">
+                <Row className="footer">
                   <Col md="12" className="social">
-                    <a href="https://github.com/DeusVastator"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fa', 'envelope-square']} size="3x" className="social-icon"/></a>
+                    <a href="mailto:contact@denisalfonso.com"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fa', 'envelope-square']} size="3x"/></a>
 
-                    <a href="https://github.com/DeusVastator"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'github-square']} size="3x" className="social-icon"/></a>
+                    <a href="https://github.com/DeusVastator"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'github-square']} size="3x"/></a>
 
-                    <a href="https://github.com/DeusVastator"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'linkedin']} size="3x" className="social-icon"/></a>
+                    <a href="https://www.linkedin.com/in/denis-alfonso-a25869170/"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'linkedin']} size="3x"/></a>
 
-                    <a href="https://github.com/DeusVastator"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'youtube-square']} size="3x" className="social-icon"/></a>
+                    <a href="https://www.youtube.com/user/GhostMansion2"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'youtube-square']} size="3x"/></a>
                   </Col>
 
                   
                 </Row>
+
+                <Row><h3 id="copyright">This website was designed and coded by Denis Alfonso.</h3></Row>
               </Container>
 
             

@@ -147,7 +147,20 @@
   margin-top: 50px;
 }
 
-.footer .social .social-icon {
-  margin: 5px;
-  color: green;
+.footer .social .icon-color {
+  margin: 0 15px 0 15px;
+  color: #85CB33;
+}
+
+.footer .social {
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#copyright {
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
 }
