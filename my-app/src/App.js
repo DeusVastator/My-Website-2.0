@@ -34,11 +34,11 @@ function App() {
               
               <Nav className="top-nav">
                 <NavItem>
-                  <NavLink href="">Projects</NavLink>
+                  <NavLink href="#projects">Projects</NavLink>
                 </NavItem>
 
                 <NavItem>
-                  <NavLink href="">About</NavLink>
+                  <NavLink href="#bio">About</NavLink>
                 </NavItem>
 
                 <NavItem>
@@ -107,6 +107,8 @@ function App() {
 
               <div className="green-container">
                 <h2 className="green-text">Want to follow my work and side-project shenanigans? Check out the links below!</h2>
+
+                <img src="./images/guy-on-desk.svg" id="guy-on-desk"></img>
               </div>
 
               <Container>

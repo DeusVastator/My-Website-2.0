@@ -74,6 +74,7 @@
   margin-top: 100px;
   margin-bottom: 100px;
   max-width: 100%!;
+  
 }
 
 .green-text {
@@ -121,6 +122,10 @@
  margin-top: 25px;
 }
 
+#bio {
+  margin-top: 200px;
+}
+
 
 #bio .profile-pic {
   display: inline;
@@ -164,3 +169,13 @@
   margin: auto;
   margin-top: 50px;
 }
+
+#guy-on-desk {
+  width:500px;
+  float: right;
+  margin-top: -365px;
+  overflow: hidden;
+  display: flex;
+}
+
+
