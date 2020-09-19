@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Button, Navbar } from 'reactstrap';
-import logo from './logo.png';
+import logo from './logo-svg.svg';
 import {
   Collapse,
   NavbarToggler,
@@ -50,7 +50,7 @@ function App() {
               <Container id="hero-container">
                 <h1 id="hero-text1">Web Developer, Designer, Tech Enthusiast</h1>
                 <h4 id="hero-text2">Hi, My name is Denis and I enjoy designing and coding beautiful and unique websites/apps.</h4>
-                <img src="./images/desk-illustration.svg"></img>
+                <img src="./images/desk-illustration.svg" id="computer-ill"></img>
               </Container>
 
               <div className="green-container">

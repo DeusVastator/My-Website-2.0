@@ -13,7 +13,7 @@
 
 .logo {
   margin-left:200px;
-  width: 133p;
+  width: 133px;
   height: 105px;
 }
 
@@ -54,6 +54,10 @@
 
 #hero-container {
   margin-top: 50px;
+}
+
+#computer-ill {
+  margin-bottom: -100px;
 }
 
 #hero-text1 {
@@ -156,6 +160,12 @@
   margin: 0 15px 0 15px;
   color: #85CB33;
 }
+
+.footer .social .icon-color:hover {
+  color: white;
+}
+
+
 
 .footer .social {
   margin: auto;
