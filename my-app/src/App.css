@@ -126,6 +126,20 @@
  margin-top: 25px;
 }
 
+#projects .btn-danger {
+  background-color: #85CB33;
+  border: none;
+}
+
+#projects .btn-danger:hover {
+  background-color: #272D2D;
+  border: solid 2px #85CB33;
+}
+
+#projects .btn-danger:focus {
+  border: none;
+}
+
 #bio {
   margin-top: 200px;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { Button, Navbar } from 'reactstrap';
 import logo from './logo-svg.svg';
@@ -17,8 +17,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
+import Bully from './bully';
+
 
 library.add(fab, fas);
+
+
+
 
 
 function App() {
@@ -65,7 +70,9 @@ function App() {
                     
                     <p className="project-text">This Project is the one I am most proud of for the home page design. The stock photos I used here and the accent blue color for the beginning word of every title really made this one stand out.</p>
                     <br/>
-                    <a href="#" className="project-link">View Project</a>
+
+                    <Bully buttonLabel="View Project" className="view-btn"></Bully>
+                    
                     </Col>
                     
                     
