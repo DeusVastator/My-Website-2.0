@@ -202,4 +202,12 @@
   display: flex;
 }
 
+.carousel-item > img { 
+  width: 100%;
+
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black!important;
+}
 

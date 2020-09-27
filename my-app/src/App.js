@@ -17,7 +17,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
-import Bully from './bully';
+import Books from './books';
 
 
 library.add(fab, fas);
@@ -71,7 +71,7 @@ function App() {
                     <p className="project-text">This Project is the one I am most proud of for the home page design. The stock photos I used here and the accent blue color for the beginning word of every title really made this one stand out.</p>
                     <br/>
 
-                    <Bully buttonLabel="View Project" className="view-btn"></Bully>
+                    <a href="#" className="project-link">View Project</a>
                     
                     </Col>
                     
@@ -94,7 +94,7 @@ function App() {
                   <Col md="6" sm="12" className="project-info">
                   <h3 className="project-header">Discount Detective <a href="https://github.com/DeusVastator"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'github']} /></a></h3>
                     
-                    <p className="project-text">This is a discount hunting app that I designed a mockup for. There is no coded version of this project as I do not have the skills for mobile app development. The concept of the app is to find the best deal across multiple websites to get you the best price.</p>
+                    <p className="project-text">This is a discount hunting app that I designed a mockup for. There is no coded version of this project as I do not have the skills for mobile app development. The concept of the app is to find the best deal across multiple websites to get you the best price. <strong>This Project is not a coded project. This was purely a design project so there is no coded version.</strong></p>
                     <br/>
                     <a href="#" className="project-link">View Project</a>
                   </Col>
@@ -105,9 +105,9 @@ function App() {
                   <Col md="6" sm="12" className="project-info">
                   <h3 className="project-header">Brandywine Books <a href="https://github.com/DeusVastator"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'github']} /></a></h3>
                     
-                    <p className="project-text">This website is for a bookstore that sells books online. The original site I saw for this company was very outdated so I decided to redesign it to look a little more modern.</p>
+                    <p className="project-text">This website is for a bookstore that sells books online. The original site I saw for this company was very outdated so I decided to redesign it to look a little more modern. <strong>This Project is not a coded project. This was purely a design project so there is no coded version.</strong></p>
                     <br/>
-                    <a href="#" className="project-link">View Project</a>
+                    <Books buttonLabel="View Project Images" className="view-btn"></Books>
                   </Col>
                 </Row>
               </div>
