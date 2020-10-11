@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, Component } from 'react';
 import './App.css';
 import { Button, Navbar } from 'reactstrap';
 import logo from './logo-svg.svg';
@@ -18,12 +18,12 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import Books from './books';
+import ScrollUpButton from "react-scroll-up-button";
+import $ from 'jquery';
+
 
 
 library.add(fab, fas);
-
-
-
 
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
               
               <Nav className="top-nav">
                 <NavItem>
-                  <NavLink href="#projects">Projects</NavLink>
+                <NavLink href="#projects">Projects</NavLink>
                 </NavItem>
 
                 <NavItem>
@@ -148,6 +148,10 @@ function App() {
 
                 <Row><h3 id="copyright">This website was designed and coded by Denis Alfonso.</h3></Row>
               </Container>
+
+              
+              <ScrollUpButton AnimationDuration={500} />
+              
 
             
           </div>
