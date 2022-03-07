@@ -18,12 +18,16 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import Books from './books';
+import Detective from './detective';
 import ScrollUpButton from "react-scroll-up-button";
 import $ from 'jquery';
 
 
 
+
 library.add(fab, fas);
+
+
 
 
 function App() {
@@ -66,12 +70,12 @@ function App() {
                 <Row className="row-gap">
                   <Col md="6" sm="12"><img src="./images/bully.jpg"></img></Col>
                   <Col md="6" sm="12" className="project-info">
-                    <h3 className="project-header">Stop Bullying Now Foundation <a href="https://github.com/DeusVastator"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'github']} /></a></h3>
+                    <h3 className="project-header">Stop Bullying Now Foundation <a href="https://github.com/DeusVastator/Project-2"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'github']} /></a></h3>
                     
                     <p className="project-text">This Project is the one I am most proud of for the home page design. The stock photos I used here and the accent blue color for the beginning word of every title really made this one stand out.</p>
                     <br/>
 
-                    <a href="#" className="project-link">View Project</a>
+                    <a href="https://github.com/DeusVastator/Project-2" className="project-link" target="_blank">View Project</a>
                     
                     </Col>
                     
@@ -81,11 +85,11 @@ function App() {
                 <Row className="row-gap">
                   <Col md="6"><img src="./images/le-gourmet-break.png"></img></Col>
                   <Col md="6" sm="12" className="project-info">
-                  <h3 className="project-header">Le Gourmet Break <a href="https://github.com/DeusVastator"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'github']} /></a></h3>
+                  <h3 className="project-header">Le Gourmet Break <a href="https://github.com/DeusVastator/Project-1"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'github']} /></a></h3>
                     
                     <p className="project-text">This is a local French restaurant in the Orlando area that had a pretty simple page. I redesigned it to make it look more modern and adding a nice hero page that gets the mouth watering.</p>
                     <br/>
-                    <a href="#" className="project-link">View Project</a>
+                    <a href="https://github.com/DeusVastator/Project-1" className="project-link" target="_blank">View Project</a>
                   </Col>
                 </Row>
 
@@ -94,9 +98,10 @@ function App() {
                   <Col md="6" sm="12" className="project-info">
                   <h3 className="project-header">Discount Detective <a href="https://github.com/DeusVastator"  target="_blank" className="icon-color"><FontAwesomeIcon icon={['fab', 'github']} /></a></h3>
                     
-                    <p className="project-text">This is a discount hunting app that I designed a mockup for. There is no coded version of this project as I do not have the skills for mobile app development. The concept of the app is to find the best deal across multiple websites to get you the best price. <strong>This Project is not a coded project. This was purely a design project so there is no coded version.</strong></p>
+                    <p className="project-text">This is a discount hunting app that I designed a mockup for. The concept of the app is to find the best deal across multiple websites to get you the best price. <strong>This Project is not a coded project. This was purely a design project so there is no coded version.</strong></p>
                     <br/>
-                    <a href="#" className="project-link">View Project</a>
+                    <Detective buttonLabel="View Project Images" className="view-btn"></Detective>
+                    
                   </Col>
                 </Row>
 
