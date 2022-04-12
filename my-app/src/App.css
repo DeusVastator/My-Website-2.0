@@ -12,7 +12,7 @@
 }
 
 .logo {
-  margin-left:200px;
+  margin-left: 15%;
   width: 133px;
   height: 105px;
 }
@@ -54,6 +54,7 @@
 
 #hero-container {
   margin-top: 50px;
+  width: 80%;
 }
 
 #computer-ill {
@@ -63,12 +64,14 @@
 #hero-text1 {
   color: white;
   text-align: center;
+  width: 80%;
+  margin: auto;
 }
 
 #hero-text2 {
   color: white;
   text-align: center;
-  width: 700px;
+  width: 60%;
   margin: auto;
   margin-top: 20px;
 }
@@ -84,10 +87,11 @@
 .green-text {
   color: white;
   text-align: center;
-  width: 800px;
+  width: 50%;
   margin: auto;
   padding-top: 125px;
   padding-bottom: 125px;
+  font-size: 2em;
 }
 
 #projects {
@@ -103,7 +107,7 @@
 
 #projects .project-text {
   color: white;
-  width: 600px;
+  width: 80%;
 }
 
 #projects .project-header {
@@ -165,9 +169,10 @@
 
 #bio .bio-text {
   color: white;
-  width: 800px;
+  width: 70%;
   margin: auto;
   margin-top: 50px;
+  
 }
 
 .footer .social .icon-color {
@@ -192,12 +197,13 @@
   text-align: center;
   margin: auto;
   margin-top: 50px;
+  width: 75%;
 }
 
 #guy-on-desk {
-  width:500px;
+  width:26%;
   float: right;
-  margin-top: -365px;
+  margin-top: -19%;
   overflow: hidden;
   display: flex;
 }
@@ -212,4 +218,21 @@
 }
 
 
+/* media queries */
 
+@media (max-width: 1480px) {
+  .green-text {
+    font-size: 1.5em;
+    width: 55%;
+  }
+}
+
+@media (max-width: 720px) {
+  #hero-text1 {
+    font-size: 24px;
+  }
+
+  #hero-text2 {
+    font-size: 18px;
+  }
+}

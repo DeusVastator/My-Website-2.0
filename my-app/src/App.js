@@ -120,8 +120,9 @@ function App() {
 
               <div className="green-container">
                 <h2 className="green-text">Want to follow my work and side-project shenanigans? Check out the links below!</h2>
-
+                <div>
                 <img src="./images/guy-on-desk.svg" id="guy-on-desk"></img>
+                </div>
               </div>
 
               <Container>
