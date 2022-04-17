@@ -21,6 +21,9 @@ import Books from './books';
 import Detective from './detective';
 import ScrollUpButton from "react-scroll-up-button";
 import $ from 'jquery';
+import Example from './mobile-nav.js';
+
+
 
 
 
@@ -41,7 +44,7 @@ function App() {
               <a href="https://www.denisalfonso.com/" ><img src={logo} className="logo" /> </a>
 
               
-              <Nav className="top-nav">
+              <Nav className="top-nav" id="desktop">
                 <NavItem>
                 <NavLink href="#projects">Projects</NavLink>
                 </NavItem>
@@ -54,6 +57,9 @@ function App() {
                 <NavLink href="mailto:contact@denisalfonso.com"><Button className="contact-button rounded-pill border-primary border">Contact</Button></NavLink>
                 </NavItem>
               </Nav>
+
+              
+              
             </div>
 
               <Container id="hero-container">
@@ -63,7 +69,7 @@ function App() {
               </Container>
 
               <div className="green-container">
-                <h2 className="green-text">Looking for my work ? Look no more. Below is a set of websites/apps I designed to improve existing sites.</h2>
+                <h2 className="green-text">Looking for my work ? Look no more. Below is a set of websites/apps I designed to improve existing sites. The following are college projects and are not live websites.</h2>
               </div>
 
               <div id="projects">

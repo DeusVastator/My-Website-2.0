@@ -22,6 +22,14 @@
   margin-right: 200px;
 }
 
+#desktop {
+  display: default;
+}
+
+#mobile {
+  display: none;
+}
+
 .top-nav .nav-link {
   color: white;
 }
@@ -101,13 +109,12 @@
 
 #projects img {
   width: 85%;
-  height: 100%;
+  
   margin: auto;
 }
 
 #projects .project-text {
   color: white;
-  width: 80%;
 }
 
 #projects .project-header {
@@ -169,7 +176,7 @@
 
 #bio .bio-text {
   color: white;
-  width: 70%;
+  width: 60%;
   margin: auto;
   margin-top: 50px;
   
@@ -235,4 +242,29 @@
   #hero-text2 {
     font-size: 18px;
   }
+
+  #projects img {
+    width: 100%;
+  }
+
+  #bio .bio-text {
+    width: 80%;
+  }
+
+  #desktop {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 15%;
+    width: 100px;
+    height: 105px;
+  }
+
+  #mobile {
+    display: block;
+    margin-right: 0px;
+  }
+
+  
 }
